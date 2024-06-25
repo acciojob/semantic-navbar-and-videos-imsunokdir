@@ -4,10 +4,43 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		ul{
+			list-style-type:none;
+			display:flex;
+			justify-content:space-around;
+		}
+		ul a{
+			text-decoration:none;
+			font-size:18px;
+		}
+		video{
+			width:300px;
+			display:block;
+			margin-bottom:10px;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<nav>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#aboutus">About us</a></li>
+			<li><a href="#contact">Contact us</a></li>
+		</ul>
+	</nav>
+	<h1>3 random videos</h1>
+	<video controls>
+		<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+	</video>
+	<video controls>
+		<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4">
+	</video>
+	<video controls>
+		<source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4">
+	</video>
     <script type="text/javascript" src="./script.js">
 </script>
 
